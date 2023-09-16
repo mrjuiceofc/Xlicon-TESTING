@@ -796,7 +796,7 @@ if (responses.hasOwnProperty(smallinput)) {
     break;
     
 
-case 'repo': case 'botrepo': {
+case 'repoo': case 'botrepoo': {
   if (isBan) return reply(mess.banned); 			
   if (isBanChat) return reply(mess.bangc);
   
