@@ -752,7 +752,7 @@ if (responses.hasOwnProperty(smallinput)) {
 
 
       //
-      case 'sc': case 'script': case 'sourcecode': {
+      case 'scc': case 'sript': case 'sourccode': {
         if (isBan) return reply(mess.banned);	 			
     if (isBanChat) return reply(mess.bangc);
     A17.sendMessage(from, { react: { text: "❤" , key: m.key }})
