@@ -752,7 +752,7 @@ if (responses.hasOwnProperty(smallinput)) {
 
 
       //
-      case 'scc': case 'sript': case 'sourccode': {
+      case 'scc': case 'scriipt': case 'sourceecode': {
         if (isBan) return reply(mess.banned);	 			
     if (isBanChat) return reply(mess.bangc);
     A17.sendMessage(from, { react: { text: "❤" , key: m.key }})
@@ -776,8 +776,8 @@ if (responses.hasOwnProperty(smallinput)) {
     mediaType:1,
     //mediaUrl: 'https://wallpapercave.com/wp/wp10524580.jpg',
     //sourceUrl: "https://wallpapercave.com/wp/wp10524580.jpg"
-    mediaUrl: 'github.com/ahil15/Xlicon-v2',
-    sourceUrl: "github.com/ahil15/Xlicon-v2"
+    mediaUrl: 'github.com/mrjuice01/BayMax-v2',
+    sourceUrl: "github.com/mrjuice01/BayMax-v2"
     }}
 
     }
@@ -791,17 +791,17 @@ if (responses.hasOwnProperty(smallinput)) {
       if (isBanChat) return reply(mess.bangc);
 
       A17.sendMessage(from, { react: { text: "💫" , key: m.key }})
-    reply(`⚙ *My developer's group:* ⚙ https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2`)
+    reply(`⚙ *My developer's group:* ⚙ https://chat.whatsapp.com/GRuUvhCqhHK08msKMadAji`)
     }
     break;
     
 
-case 'repoo': case 'botrepoo': {
+case 'repo': case 'botrepo': {
   if (isBan) return reply(mess.banned); 			
   if (isBanChat) return reply(mess.bangc);
   
   A17.sendMessage(from, { react: { text: "💫" , key: m.key }})
-    reply(`⚙ My Source Code is </> - https://github.com/ahil15/Xlicon-v2`)
+    reply(`⚙ Visit Our Website </> - https://mrjuice01.github.io/#`)
     }
     break;
 
@@ -1375,7 +1375,7 @@ if (!m.isGroup) return reply(mess.grouponly)
 {
   //var response = await A17.groupInviteCode(from)
   //var link1 = `https://chat.whatsapp.com/${response}`
-  //var link2 = `https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2`
+  //var link2 = `https://chat.whatsapp.com/GRuUvhCqhHK08msKMadAji`
   var texts = text.trim().split(" ");
   var opp = texts[1];// your value
   var value = texts[0].toLowerCase();
@@ -5025,7 +5025,7 @@ const YT=require('./lib/ytdl-core')
   let search = await yts(text)
   let anu = search.videos[0]
   const ytmp4play = await YT.mp4(anu.url)
-A17.sendMessage(from, {video:{url:ytmp4play.videoUrl}, mimetype:"video/mp4", caption:anu.title+' By *Xʟɪᴄᴏɴ-Mᴜʟɪᴅᴇᴠɪᴄᴇ*',}, {quoted:m})
+A17.sendMessage(from, {video:{url:ytmp4play.videoUrl}, mimetype:"video/mp4", caption:anu.title+' By *𝖡ᴀʏ𝖬ᴀx-𝖬ᴜꜱɪᴄ-𝖡ᴏᴛ*',}, {quoted:m})
 }
 
 break;
@@ -5088,7 +5088,7 @@ if (isBanChat) return reply(mess.bangc);
 A17.sendMessage(from, { react: { text: "🍁" , key: m.key }})
 const YT=require('./lib/ytdl-core')
   const ytmp4play2 = await YT.mp4(text)
-A17.sendMessage(from, {video:{url:ytmp4play2.videoUrl}, mimetype:"video/mp4", caption:'Downloaded by *Xʟɪᴄᴏɴ-Mᴜʟɪᴅᴇᴠɪᴄᴇ*',}, {quoted:m})
+A17.sendMessage(from, {video:{url:ytmp4play2.videoUrl}, mimetype:"video/mp4", caption:'Downloaded by *𝖡ᴀʏ𝖬ᴀx-𝖬ᴜꜱɪᴄ-𝖡ᴏᴛ*',}, {quoted:m})
 }
 break;
 
@@ -5270,7 +5270,7 @@ break;
 //   }
 
 //   // Send each image with a common caption
-//   const commonCaption = 'Check out this image from Pinterest By Xʟɪᴄᴏɴ-Mᴜʟɪᴅᴇᴠɪᴄᴇ';
+//   const commonCaption = 'Check out this image from Pinterest By 𝖡ᴀʏ𝖬ᴀx-𝖬ᴜꜱɪᴄ-𝖡ᴏᴛ';
 //   for (let i = 0; i < results.length; i++) {
 //     A17.sendMessage(m.chat, { image: { url: results[i] }, caption: commonCaption }, { quoted: m });
 //   }
